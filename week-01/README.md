@@ -20,7 +20,7 @@ If none of that works, feel free to reach out in the Discord for help on getting
 
 ## Submitting Solutions
 
-Submissions to problems can be submitted past **Friday @ 5:00pm (January 17th, 2020)**, please don't distrubute submissions to GitHub before this date, so every one has a chance to do their own thing before this time!
+Submissions to problems can be submitted past **Friday @ 5:00pm (January 17th, 2020)**, please don't distribute submissions to GitHub before this date, so every one has a chance to do their own thing before this time!
 
 Either you can:
 
