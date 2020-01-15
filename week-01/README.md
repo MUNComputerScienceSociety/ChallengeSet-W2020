@@ -20,7 +20,7 @@ If none of that works, feel free to reach out in the Discord for help on getting
 
 ## Submitting Solutions
 
-Submissions to problems can be submitted past **5:00pm on January 17th 2020**
+Submissions to problems can be submitted past **Friday @ 5:00pm (January 17th, 2020)**
 
 Either you can:
 
@@ -41,7 +41,7 @@ This is the preferable method, since learning git is a very useful skill in itse
 If you're not comfortable with git, feel free to reach out to one of the following executives with your code, so we can submit it to this repository for you instead:
 
 - Jack (\<i\>jack arthur null\</i\>#1337)
-- Nikki (eva twin#0001)
+- Eva (eva twin#0001)
 - Kent (Kent B#3019)
 
 ## What do I get out of it?
