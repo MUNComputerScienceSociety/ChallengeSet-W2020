@@ -20,7 +20,7 @@ If none of that works, feel free to reach out in the Discord for help on getting
 
 ## Submitting Solutions
 
-Submissions to problems can be submitted past **Friday @ 5:00pm (January 17th, 2020)**
+Submissions to problems can be submitted past **Friday @ 5:00pm (January 17th, 2020)**, please don't distrubute submissions to GitHub before this date, so every one has a chance to do their own thing before this time!
 
 Either you can:
 
@@ -29,7 +29,7 @@ Either you can:
 This is the preferable method, since learning git is a very useful skill in itself!
 
 1. Create a fork of this repository
-2. Place your submission within this directory (`week1/`), in a sub-directory that is your mun name (ex. `week1/jaharrhy`, `week1/rod`, `week1/nidlidstone`, etc.)
+2. Place your submission within this directory (`week1/`), in a sub-directory that is your mun name, or simply GitHub username (ex. `week1/jaharrhy`, `week1/nint8836`, `week1/rod`, `week1/nidlidstone`, etc.)
 3. Ensure that your submission works within said directory, along with instructions on how to run the code:
 
 > How to run my code: ...
