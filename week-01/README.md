@@ -12,6 +12,12 @@ This first week is a tidy little introduction one: below you'll find a few misc.
 
 [Autori](https://open.kattis.com/problems/autori)
 
+## How do I use Kattis?
+
+You can use Kattis' [Python 3 Help](https://open.kattis.com/help/python3) section for information, or something like [this video](https://www.youtube.com/watch?v=7NHyzBN4GAM).
+
+If none of that works, feel free to reach out in the Discord for help on getting your program running!
+
 ## Submitting Solutions
 
 Submissions to problems can be submitted past **5:00pm on January 17th 2020**
@@ -37,8 +43,6 @@ If you're not comfortable with git, feel free to reach out to one of the followi
 - Jack (\<i\>jack arthur null\</i\>#1337)
 - Nikki (eva twin#0001)
 - Kent (Kent B#3019)
-
-[Python 3 Help](https://open.kattis.com/help/python3)
 
 ## What do I get out of it?
 
