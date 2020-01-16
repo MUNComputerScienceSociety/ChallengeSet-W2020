@@ -18,6 +18,14 @@ You can use Kattis' [Python 3 Help](https://open.kattis.com/help/python3) sectio
 
 If none of that works, feel free to reach out in the Discord for help on getting your program running!
 
+## Testing your Solutions
+
+Sample input and output for all problems have been given under the subdirectory `week-01/test-samples/`. The input files must be piped into your solution in order to test them.
+
+An example command for doing this for an arbitrary python solution is `cat test-samples/<problemid>/1.in | python <username>/<problemid>.py` . 
+
+The expected output for any given solution is found under the subdirectory `week-01/test-samples/<problemid>/<sample-number>.ans` .  
+
 ## Submitting Solutions
 
 Submissions to problems can be submitted past **Friday @ 5:00pm (January 17th, 2020)**, please don't distribute submissions to GitHub before this date, so every one has a chance to do their own thing before this time!
