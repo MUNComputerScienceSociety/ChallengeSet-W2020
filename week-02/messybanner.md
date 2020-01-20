@@ -1,7 +1,5 @@
 # Messy Banner
 
-----
-
 In the process of adding new courses, due to the archaic interface of self-service, a large amount of invalid data was added to MUNs banner system!
 
 It'd be too tricky to manually go through it all by hand, so you have been tasked to clean up this data.
