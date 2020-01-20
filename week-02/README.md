@@ -7,12 +7,15 @@ Keeping with the same theme as last week, we've got a mixed bag of questions, so
 Remember, you're welcome to submit as-little-and-as-many solutions as you like, if you only have time to tackle a single question, that's fine by us!
 
 [Seven Wonders](https://open.kattis.com/problems/sevenwonders)
+
 [Quick Estimates](https://open.kattis.com/problems/quickestimate)
+
 [Number Fun](https://open.kattis.com/problems/numberfun)
 
 These ones are a little more complex, but still should be accessible to most:
 
 [4 thought](https://open.kattis.com/problems/4thought)
+
 [I Can Guess the Data Structure!](https://open.kattis.com/problems/guessthedatastructure)
 
 This week we've also done up a custom in-house problem:
