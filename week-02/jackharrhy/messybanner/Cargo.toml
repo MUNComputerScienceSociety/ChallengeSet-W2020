@@ -1,0 +1,8 @@
+[package]
+name = "messybanner"
+version = "0.1.0"
+authors = ["Jack Arthur Harrhy <me@jackharrhy.com>"]
+edition = "2018"
+
+[dependencies]
+regex = "1"
