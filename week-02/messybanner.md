@@ -26,7 +26,7 @@ ED 3022_
 C 2001
 ```
 
-Since you want your implmentation to be generic enough that it doesn't have to be changed in the future, you shouldn't validate that a building actually exists.
+Since you want your implementation to be generic enough that it doesn't have to be changed in the future, you shouldn't validate that a building actually exists.
 
 Also, since online courses don't have physical rooms, you also consider no data to be valid data.
 

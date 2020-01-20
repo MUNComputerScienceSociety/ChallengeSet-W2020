@@ -22,7 +22,7 @@ This week we've also done up a custom in-house problem:
 
 [Messy Banner](./messybanner.md)
 
-For instructions on the format of ChallangeSet and how to contribute, see [last weeks `README.md`](../week-01)
+For instructions on the format of ChallengeSet and how to contribute, see [last weeks `README.md`](../week-01)
 
 Submissions can be submitted past **Friday @ 5:00pm (January 24th, 2020)**.
 
