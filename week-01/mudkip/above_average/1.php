@@ -10,4 +10,3 @@ for($i = 0; $i < $lines; $i++) {
 	$above_avg = array_filter($g, function($val) use ($avg) { return $val > $avg; });
 	printf("%.3f" . PHP_EOL, (count($above_avg)/$c)*100);
 }
-
