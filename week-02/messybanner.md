@@ -6,7 +6,7 @@ It'd be too tricky to manually go through it all by hand, so you have been taske
 
 Telling the difference between garbled and real data requires knowing what _good_ data looks like, and since room numbers follow a specific pattern, you filter the data you have by where they should be found.
 
-The following are valid rooms, as banner displays them [here](https://www5.mun.ca/admit/hwswsltb.P_CourseSearch?p_term=201902&p_levl=01*04)
+The following are valid rooms, as banner displays them [here](https://www5.mun.ca/admit/hwswsltb.P_CourseSearch?p_term=201902&p_levl=01*04).
 
 ```
 A  1046
