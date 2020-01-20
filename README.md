@@ -8,4 +8,5 @@ a _set_ of _challenges_
 
 - nint8835, [week-01](./week-01/nint8835)
 - jackharrhy, [week-01](./week-01/jackharrhy)
+- Mudkip, [week-01](./week-01/mudkip)
 
