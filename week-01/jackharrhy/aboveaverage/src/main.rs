@@ -19,7 +19,9 @@ fn main() -> io::Result<()> {
         let (_, marks) = marks.split_at(1);
         let mut best: usize = 0;
 
-        let sum = marks.iter().fold(0, |acc, x| acc + x.parse::<usize>().unwrap());
+        let sum = marks
+            .iter()
+            .fold(0, |acc, x| acc + x.parse::<usize>().unwrap());
         let avg = sum / marks.len();
 
         for mark in marks {

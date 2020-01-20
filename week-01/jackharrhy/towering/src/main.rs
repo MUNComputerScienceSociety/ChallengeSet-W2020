@@ -10,7 +10,10 @@ fn main() -> io::Result<()> {
 
     let cleaned: String = buffer.split('\n').collect();
 
-    let mut boxes: Vec<usize> = cleaned.split(' ').map(|x| x.parse::<usize>().unwrap()).collect();
+    let mut boxes: Vec<usize> = cleaned
+        .split(' ')
+        .map(|x| x.parse::<usize>().unwrap())
+        .collect();
     let heights: Vec<usize> = boxes.split_off(6);
 
     let heap = Heap::new(&mut boxes);
@@ -35,12 +38,13 @@ fn main() -> io::Result<()> {
             tower_b.sort();
             tower_b.reverse();
 
-            println!("{} {} {} {} {} {}", tower_a[0], tower_a[1], tower_a[2], tower_b[0], tower_b[1], tower_b[2]);
+            println!(
+                "{} {} {} {} {} {}",
+                tower_a[0], tower_a[1], tower_a[2], tower_b[0], tower_b[1], tower_b[2]
+            );
             break;
         }
     }
-
-    boxes.sort();
 
     Ok(())
 }
