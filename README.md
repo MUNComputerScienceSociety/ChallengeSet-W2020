@@ -6,5 +6,6 @@ a _set_ of _challenges_
 
 ## Contributors:
 
-- *none, so far :)*
+- nint8835, [week-01](./week-01/nint8835)
+- jackharrhy, [week-01](./week-01/jackharrhy)
 
