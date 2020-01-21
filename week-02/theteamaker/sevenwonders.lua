@@ -20,7 +20,7 @@ for i = string.len(input), 1, -1 do
     end
 end
 
--- Logic for deducing the amount of complete sets in the given hand, relies on the minimum number found in a set
+-- Logic for deducing the amount of complete sets in the given hand.
 
 amounts = {}
 iter_amt = 1
