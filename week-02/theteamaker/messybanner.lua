@@ -35,7 +35,13 @@ for i, room in pairs(lines) do
                 validity = false
                 break
             end
-
+        
+        if str_table[3] ~= ' ' and str_table[2] == ' '
+        then
+            validity = false
+            break
+        end
+        
         elseif i >= 4 and i <= 7
         then
             if string.match(str_table[i], '%d') == nil
