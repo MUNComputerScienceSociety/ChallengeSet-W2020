@@ -4,6 +4,7 @@ a _set_ of _challenges_
 
 - [Week 1 (Jan 14th)](./week-01)
 - [Week 2 (Jan 20th)](./week-02)
+- [Week 3 (Jan 27th)](./week-03)
 
 ## Contributors:
 
