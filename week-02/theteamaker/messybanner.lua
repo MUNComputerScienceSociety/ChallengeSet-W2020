@@ -30,10 +30,13 @@ for i, room in pairs(lines) do
 
         elseif i >= 2 and i <= 3 or i == 8
         then
-            if string.match(str_table[i], '%u') == nil and str_table[i] ~= ' '
+            if str_table[i] ~= nil
             then
-                validity = false
-                break
+                if string.match(str_table[i], '%u') == nil and str_table[i] ~= ' '
+                then
+                    validity = false
+                    break
+                end
             end
         
         if str_table[3] ~= ' ' and str_table[2] == ' '
