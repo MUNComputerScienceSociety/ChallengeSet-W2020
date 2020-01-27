@@ -12,3 +12,4 @@ a _set_ of _challenges_
 - jackharrhy, [week-01](./week-01/jackharrhy)
 - Mudkip, [week-01](./week-01/mudkip)
 - Koalas, [week-02](./week-02/koalas)
+- theteamaker, [week-01](./week-01/theteamaker), [week-02](./week-02/theteamaker)
