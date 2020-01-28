@@ -1,7 +1,10 @@
-f = open("GuessDataStructure.txt", "r")
+import sys
+
+
 arr = []
-while True:
-    nstr = f.readline()
+# SETUP OUR ARRAY FROM THE FILE
+for i in sys.stdin:
+    nstr = i
     nstr = nstr.rstrip()
     if(len(nstr) == 0):
         break
@@ -12,7 +15,6 @@ while True:
 
 
 def guessDataStructure(arr):
-    total = 0
     for x in range(len(arr)):
         try:
             arr[x] += 1
@@ -29,9 +31,12 @@ def guessDataStructure(arr):
             for y in range(x+1, total+x+1, 1):
                 if(total == 1):
                     break
+                #IF DATA IS PUSHED
                 if(arr[y][0] == 1):
                     inserted.append(arr[y][1])
+                #IF DATA IS POPPED
                 if(arr[y][0] == 2):
+                    
                     #CHECK IF QUEUE
                     for j in range(count, total+x+1, 1):
                         insert = arr[j]
@@ -40,6 +45,7 @@ def guessDataStructure(arr):
                             break
                     if(insert[1] != arr[y][1]):
                         queue = False
+                        
                     #CHECK IF STACK
                     for j in range(y, x, -1):
                         insert = arr[j]
@@ -51,12 +57,13 @@ def guessDataStructure(arr):
                            countdown = countdown - 1
                     if(insert[1] != arr[y][1]):
                         stack = False
-
+                        
                     #CHECK IF PRIORITY QUEUE
                     if(max(inserted) == arr[y][1] and priority != False):
                         inserted.remove(max(inserted))   
                     else:
                         priority = False
+
             if(priority and not stack and not queue):
                 print("priority queue")
             elif(stack and not queue and not priority):
@@ -73,7 +80,5 @@ def guessDataStructure(arr):
             x = x + 1
         
         
-        
-            
 
 guessDataStructure(arr)
