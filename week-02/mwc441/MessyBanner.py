@@ -1,3 +1,6 @@
+import sys
+
+
 def messyBanner(bldg):
     if(len(bldg.strip()) == 0):
         return True
@@ -23,3 +26,9 @@ def messyBanner(bldg):
         if(count == 7 and (bldg[count] != " " and bldg[count].isupper() == False)):
             return False
     return True
+
+for i in sys.stdin:
+    if(messyBanner(i.rstrip())):
+        print("Y")
+    else:
+        print("N")
