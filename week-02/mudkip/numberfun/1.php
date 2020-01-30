@@ -1,5 +1,5 @@
 <?php
-        $f = fopen("php://stdin", "r");
+	$f = fopen("php://stdin", "r");
 	$c = (int)fgets($f);
 	for($i = 0; $i < $c; $i++) {
 		$nums = explode(" ", fgets($f));
