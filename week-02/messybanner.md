@@ -21,12 +21,18 @@ The following are _invalid_ rooms:
 a  1026
    1234
 absakdjm
-ED 3022_
+E D3022_
  ICC2001
 C 2001
+ EN 4019
+O A1234Z
 ```
 
-Since you want your implementation to be generic enough that it doesn't have to be changed in the future, you shouldn't validate that a building actually exists.
+Since you want your implementation to be generic enough that it doesn't have to be changed in the future, you shouldn't validate that:
+
+- Given building actually exists at MUN currently.
+- Floors only go up to a certain level.
+- Optional letter postfix is limited to A/B/Z, might extend to Z
 
 Also, since online courses don't have physical rooms, you also consider no data to be valid data.
 
@@ -50,7 +56,7 @@ ED 2018A
 absakdjm
 A  1046f
 EN 2036
-SN 1234_
+S N1234_
 ```
 
 **Output:**
