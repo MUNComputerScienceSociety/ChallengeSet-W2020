@@ -1,0 +1,8 @@
+.DS_Store
+.sconsign.dblite
+.vscode
+.clang-format
+
+*.dSYM
+*.o
+jumbled
