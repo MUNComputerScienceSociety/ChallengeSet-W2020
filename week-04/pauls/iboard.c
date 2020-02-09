@@ -19,13 +19,16 @@ int main(int argc, char *argv[]) {
    * Comment:  Not as neat as the log level being a parameter to the function
    * call.
    */
-  if (strcmp(argv[1], "-vvv") == 0)
-    log_set_level(LOG_TRACE);
-  else if (strcmp(argv[1], "-vv") == 0)
-    log_set_level(LOG_DEBUG);
-  else if (strcmp(argv[1], "-v") == 0)
-    log_set_level(LOG_WARN);
-  else
+  if (argv[1]) {
+    if (strcmp(argv[1], "-vvv") == 0)
+      log_set_level(LOG_TRACE);
+    else if (strcmp(argv[1], "-vv") == 0)
+      log_set_level(LOG_DEBUG);
+    else if (strcmp(argv[1], "-v") == 0)
+      log_set_level(LOG_WARN);
+    else
+      log_set_level(LOG_INFO);
+  } else
     log_set_level(LOG_INFO);
 
   char line[100];
