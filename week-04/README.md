@@ -1,4 +1,4 @@
-# Week 4
+# Week 4 (Feb 3rd)
 
 Welcome to the fourth week of _ChallengeSet_!
 
