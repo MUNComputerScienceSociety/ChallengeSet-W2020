@@ -11,6 +11,9 @@ $(OBJS): $(SRC)
 
 iboard: log.o iboard.o
 
+bussimple: bussimple.o
+	$(CC) $(CFLAGS) -lm -o $@ $^
+
 .PHONY: clean
 clean:
 	rm -f $(OBJS) $(PROGS)
