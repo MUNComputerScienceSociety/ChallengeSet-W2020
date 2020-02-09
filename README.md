@@ -13,7 +13,7 @@ a _set_ of _challenges_
 - jackharrhy, [week-01](./week-01/jackharrhy) [week-02](./week-02/jackharrhy) [week-03](./week-03/jackharrhy) 
 - k47swp, [week-02](./week-02/k47swp) 
 - koalas, [week-02](./week-02/koalas) 
-- mudkip, [week-01](./week-01/mudkip) [week-02](./week-02/mudkip) [week-03](./week-03/mudkip) 
+- mudkip, [week-01](./week-01/mudkip) [week-02](./week-02/mudkip) [week-03](./week-03/mudkip) [week-04](./week-04/mudkip) 
 - mwc441, [week-01](./week-01/mwc441) [week-02](./week-02/mwc441) [week-04](./week-04/mwc441) 
 - nint8835, [week-01](./week-01/nint8835) [week-02](./week-02/nint8835) [week-03](./week-03/nint8835) 
 - pauls, [week-03](./week-03/pauls) [week-04](./week-04/pauls) 
