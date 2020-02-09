@@ -16,9 +16,9 @@ print_contribs() {
     printf -- "- $contrib, "
     for contribution in $( find . -mindepth 2 -maxdepth 2 -iname "$contrib" ! -iname "*.md" ! -iname "test-samples" | sort )
     do
-      printf "[$(basename "$(dirname "$contribution")")]($contribution), "
+      printf "[$(basename "$(dirname "$contribution")")]($contribution) "
     done
-    printf "\b\b \n"
+    printf "\n"
   done
 }
 
@@ -29,7 +29,7 @@ print_weeks() {
   done
 }
 
-printf "# MUNCS ChallengeSet - Winter 2020\n\na _set of _challenges_\n\n"
+printf "# MUNCS ChallengeSet - Winter 2020\n\na _set_ of _challenges_\n\n"
 print_weeks
 printf "\n## Contributors:\n\n"
 print_contribs
