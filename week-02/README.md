@@ -1,4 +1,4 @@
-# Week 2
+# Week 2 (Jan 20th)
 
 Welcome to the second week of _ChallengeSet_!
 
