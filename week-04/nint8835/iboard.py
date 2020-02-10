@@ -11,7 +11,7 @@ print(
                     + type.__name__[___:]
                     + dir.__name__[_]
                     for ______ in [
-                        "".join(
+                        str().join(
                             [
                                 bin(ord(________))[___:].zfill(___ * ___ * ___ - __)
                                 for ________ in _______.strip()
