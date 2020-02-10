@@ -9,7 +9,7 @@ a _set_ of _challenges_
 
 ## Contributors:
 
-- nint8835, [week-01](./week-01/nint8835), [week-02](./week-02/nint8835)
+- nint8835, [week-01](./week-01/nint8835), [week-02](./week-02/nint8835), [week-03](./week-03/nint8835), [week-04](./week-04/nint8835)
 - jackharrhy, [week-01](./week-01/jackharrhy), [week-02](./week-02/jackharrhy)
 - Mudkip, [week-01](./week-01/mudkip), [week-02](./week-02/mudkip)
 - Koalas, [week-02](./week-02/koalas)
