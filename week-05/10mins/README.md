@@ -10,7 +10,7 @@ Even though we're given _10 minutes_ between classes, you've been brought back f
 
 Above is a simplified view of paths / tunnels between classes, along with each 'weight' of the paths, since not all paths are as short/long.
 
-(Also of note is O1 and B8 being a little lost, they made more sense when there was a overpas between Chem/Phys and Earth Science .-.)
+(Also of note is O1 and B8 being a little lost, they made more sense when there was a overpass between Chem/Phys and Earth Science .-.)
 
 You can assume that students will only be taking them and not other alternate routes.
 
