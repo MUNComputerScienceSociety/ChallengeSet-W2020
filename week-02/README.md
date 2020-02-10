@@ -1,4 +1,4 @@
-# Week 2
+# Week 2 (Jan 20th)
 
 Welcome to the second week of _ChallengeSet_!
 
@@ -20,7 +20,7 @@ These ones are a little more complex, but still should be accessible to most:
 
 This week we've also done up a custom in-house problem:
 
-[Messy Banner](./messybanner.md)
+[Messy Banner](../problems/messybanner)
 
 For instructions on the format of ChallengeSet and how to contribute, see [last weeks `README.md`](../week-01)
 

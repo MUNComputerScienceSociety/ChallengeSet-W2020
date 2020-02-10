@@ -1,0 +1,12 @@
+.DS_Store
+.sconsign.dblite
+.vscode
+.clang-format
+
+*.dSYM
+*.o
+brokenswords
+iboard
+busrecursion
+bussimple
+cetvrta

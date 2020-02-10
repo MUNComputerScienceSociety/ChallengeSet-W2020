@@ -1,4 +1,4 @@
-# Week 1
+# Week 1 (Jan 14th)
 
 Welcome to the first week of _ChallengeSet_, a _set_ of _challenges_ we're planning on putting out every week of this semester!
 

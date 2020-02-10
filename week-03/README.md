@@ -1,4 +1,4 @@
-# Week 3
+# Week 3 (Jan 27th)
 
 Welcome to the third week of _ChallengeSet_!
 
