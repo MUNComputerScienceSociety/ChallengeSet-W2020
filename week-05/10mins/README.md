@@ -16,9 +16,11 @@ You also want to give your own opinion on how 'good' the path is.
 
 If the 'weights' between each location less than or equal to 5, you think that's pretty "Short!".
 
-If they're less than or euqal 15, you still think that's "Okay".
+If they're less than or equal 15, you still think that's "Okay".
 
 Anything other than that is for sure too "Long :(".
+
+To remove the tedious task of turning the above image into data, [that's already done for you in this file!](./10mins.json)
 
 ## Input
 
