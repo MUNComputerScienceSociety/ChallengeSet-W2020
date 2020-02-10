@@ -87,7 +87,7 @@ def to_array(prev, from_node):
 nodes = {}
 graph = Graph()
 
-with open("../10mins/10mins.json") as json_file:
+with open("../../problems/10mins/10mins.json") as json_file:
     data = json.load(json_file)
     for node in data.keys():
         nodes[node] = Node(node)
