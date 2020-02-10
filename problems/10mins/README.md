@@ -1,6 +1,6 @@
 # 10 Minutes
 
-Thanks to the work completed by [Messy Banner](../../week-02/messybanner.md), invalid data was removed from the banner system.
+Thanks to the work completed by [Messy Banner](../messybanner), invalid data was removed from the banner system.
 
 However, the data for courses being offered next semester doesn't account for the distance between classes.
 
