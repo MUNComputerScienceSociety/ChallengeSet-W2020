@@ -3,7 +3,9 @@
 Welcome to the fifth week of _ChallengeSet_!
 
 [Bela](https://open.kattis.com/problems/bela)
+
 [Unlock Pattern](https://open.kattis.com/problems/unlockpattern)
+
 [Racing Around the Alphabet](https://open.kattis.com/problems/racingalphabet)
 
 This week, like week 2, contains a _custom_ question:
