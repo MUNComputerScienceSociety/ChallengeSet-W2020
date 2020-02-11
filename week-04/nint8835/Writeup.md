@@ -1,8 +1,3 @@
-# Creating a Challenge Set Solution
-
-Created: Feb 09, 2020 12:20 AM
-Status: In Progress
-
 # Intro
 
 Ever seen one of my nonsensical challenge set solutions and wondered what went into making such a thing? You've come to the right place! In this document I'll be writing up the process of creating my solution for `iBoard`, from week 4.
