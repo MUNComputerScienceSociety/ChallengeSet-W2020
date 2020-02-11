@@ -15,4 +15,4 @@ Min files contain versions of the problem that in addition to being a single sta
 
 # Want to know how I make these?
 
-This week I've went ahead and done up a writeup and explanation of how I did the solution for `iBoard`! You can see it [here](https://www.notion.so/Creating-a-Challenge-Set-Solution-501bd7995bdb485f9ddc34e234173373)
+This week I've went ahead and done up a writeup and explanation of how I did the solution for `iBoard`! You can see it [here](./Writeup.md) (or you can view the *enhanced* version [here](https://www.notion.so/Creating-a-Challenge-Set-Solution-501bd7995bdb485f9ddc34e234173373))
