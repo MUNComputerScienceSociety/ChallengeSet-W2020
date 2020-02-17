@@ -22,7 +22,7 @@ of the nine 3 × 3 subgrids, must contain all of the digits 1 ⋯ 9. The table
 presents an example of a valid Sudoku puzzle. This problem consists of designing
 an application that determines whether the solution to a Sudoku puzzle is valid.
 
-||||||||||
+|   |   |   |   |   |   |   |   |   |
 |---|---|---|---|---|---|---|---|---|
 | 6 | 2 | 4 | 5 | 3 | 9 | 1 | 8 | 7 |
 | 5 | 1 | 9 | 7 | 2 | 8 | 6 | 3 | 4 |

@@ -1,11 +1,14 @@
-# Week 5 (Feb 17th)
+# Week 6 (Feb 17th)
 
 Welcome to the sixth week of _ChallengeSet_!
 
----
-Special Challenge to win a GitHub t-shirt voucher
+It's the midterm break, so we've only got a single challange this week.
+
+_But_, you also have a chance to win a GitHub t-shirt voucher! (Thanks to [@ZapMe](https://github.com/zapme))
 
 [Sudoku Solution Checker](../problems/sudokuchecker)
+
+Details can be found on the problem page about the vouchers.
 
 ---
 
