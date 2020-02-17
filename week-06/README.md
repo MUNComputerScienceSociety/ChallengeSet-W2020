@@ -1,4 +1,4 @@
-# Week 5 (Feb 10th)
+# Week 5 (Feb 17th)
 
 Welcome to the sixth week of _ChallengeSet_!
 
