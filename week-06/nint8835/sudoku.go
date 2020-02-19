@@ -34,8 +34,10 @@ func checkColumn(grid [][]int, column int, valid chan bool) {
 
 func checkSquare(grid [][]int, square int, valid chan bool) {
 	values := make([]int, 0)
-	for x := (square % 3) * 3; x < (square%3)*3+3; x++ {
-		for y := (square % 3) * 3; y < (square%3)*3+3; y++ {
+	startX := (square % 3) * 3
+	startY := (square / 3) * 3
+	for x := startX; x < startX+3; x++ {
+		for y := startY; y < startY+3; y++ {
 			values = append(values, grid[y][x])
 		}
 	}
