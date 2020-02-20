@@ -67,3 +67,118 @@ int main(int argc, char **argv)
     
     
 }
+
+void *checkrow(void *param)
+{
+    int validity[9];
+    int valid_indicator = 1;
+    for(int i = 0; i<9; i++)
+    {
+        int num = input_data[param.row][i];
+        validity[num-1]++;
+    }
+
+    for(int i = 0;i<9;i++)
+    {
+        if(validity[i] != 1)
+        {
+            valid_indicator = 0;
+        }
+    }
+    if(valid_indicator)
+    {
+        validity_data[0][param.row] = 1;
+    }
+}
+
+void *checkcolumn(void *param)
+{
+    int validity[9];
+    int valid_indicator = 1;
+    for(int i = 0; i<9; i++)
+    {
+        int num = input_data[i][param.column];
+        validity[num-1]++;
+    }
+
+    for(int i = 0;i<9;i++)
+    {
+        if(validity[i] != 1)
+        {
+            valid_indicator = 0;
+        }
+    }
+    if(valid_indicator)
+    {
+        validity_data[1][param.column] = 1;
+    }
+}
+
+void *checksquare(void *param)
+{
+    int validity[9];
+    int valid_indicator = 1;
+    for(int i=param.row;i<param.row + 3;i++)
+    {
+        for(int j = param.column; j < param.column + 3; j++)
+        {
+            int num = input_data[i][j];
+            validity[num-1] ++;
+        }
+    }
+
+    for(int i = 0;i<9;i++)
+    {
+        if(validity[i] != 1)
+        {
+            valid_indicator = 0;
+        }
+    }
+    if(valid_indicator)
+    {
+        if(param.row == 1 && param.column ==1)
+        {
+            validity_data[2][0] = 1;
+        }
+
+        else if(param.row == 1 && param.column ==4)
+        {
+            validity_data[2][1] = 1;
+        }
+
+        else if(param.row == 1 && param.column ==7)
+        {
+            validity_data[2][2] = 1;
+        }
+
+        else if(param.row == 4 && param.column ==1)
+        {
+            validity_data[2][3] = 1;
+        }
+
+        else if(param.row == 4 && param.column ==4)
+        {
+            validity_data[2][4] = 1;
+        }
+
+        else if(param.row == 4 && param.column ==7)
+        {
+            validity_data[2][5] = 1;
+        }
+
+        else if(param.row == 7 && param.column ==1)
+        {
+            validity_data[2][6] = 1;
+        }
+
+        else if(param.row == 7 && param.column ==4)
+        {
+            validity_data[2][7] = 1;
+        }
+
+        else if(param.row == 7 && param.column ==7)
+        {
+            validity_data[2][8] = 1;
+        }
+    }
+}
