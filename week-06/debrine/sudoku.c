@@ -28,7 +28,7 @@ int main(int argc, char **argv)
     }
     else
     {
-        //printf("made it to else \n");
+        
         FILE *input = fopen(argv[1], "r");
         
         
@@ -37,25 +37,28 @@ int main(int argc, char **argv)
             fgets(line, 300, input);
             char delim[] = " ";
             char *num = strtok(line, delim);
+            input_data[i][0] = atoi(num);
             
-            for(int j = 0; j<9;j++)
+            for(int j = 1; j<9;j++)
             {
-                printf("%s\n", num);
-                num = strtok(line, delim);
+                
+                num = strtok(NULL, delim);
                 input_data[i][j] = atoi(num);
                 
                 
             }
+            
+            
         }
         fclose(input);
         
-        for(int i = 0;i++;i<9)
+        for(int i = 0;i<9;i++)
         {
-            for(int j=0;j++;j<9)
+            for(int j=0;j<9;j++)
             {
-                //printf("%c ", input_data[i][j]);
+                printf("%d ", input_data[i][j]);
             }
-            //printf("\n");
+            printf("\n");
         }
 
 
