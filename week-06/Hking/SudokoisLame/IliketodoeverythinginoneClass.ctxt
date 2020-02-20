@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=IliketodoeverythinginoneClass
+comment1.params=
+comment1.target=int[][]\ getSudoku()
+comment1.text=\ The\ working\ one\ \:)\r\n\ private\ static\ final\ int[][]\ sudoku\ \=\ {\r\n\ \ \ \ \ \ \ \ {\ 6,\ 2,\ 4,\ 5,\ 3,\ 9,\ 1,\ 8,\ 7\ },\r\n\ \ \ \ \ \ \ \ {\ 5,\ 1,\ 9,\ 7,\ 2,\ 8,\ 6,\ 3,\ 4\ },\r\n\ \ \ \ \ \ \ \ {\ 8,\ 3,\ 7,\ 6,\ 1,\ 4,\ 2,\ 9,\ 5\ },\r\n\ \ \ \ \ \ \ \ {\ 1,\ 4,\ 3,\ 8,\ 6,\ 5,\ 7,\ 2,\ 9\ },\r\n\ \ \ \ \ \ \ \ {\ 9,\ 5,\ 8,\ 2,\ 4,\ 7,\ 3,\ 6,\ 1\ },\r\n\ \ \ \ \ \ \ \ {\ 7,\ 6,\ 2,\ 3,\ 9,\ 1,\ 4,\ 5,\ 8\ },\r\n\ \ \ \ \ \ \ \ {\ 3,\ 7,\ 1,\ 9,\ 5,\ 6,\ 8,\ 4,\ 2\ },\r\n\ \ \ \ \ \ \ \ {\ 4,\ 9,\ 6,\ 1,\ 8,\ 2,\ 5,\ 7,\ 3\ },\r\n\ \ \ \ \ \ \ \ {\ 2,\ 8,\ 5,\ 4,\ 7,\ 3,\ 9,\ 1,\ 6\ }\r\n};
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3
