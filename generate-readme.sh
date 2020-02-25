@@ -19,7 +19,7 @@ print_contribs() {
       printf "[$(basename "$(dirname "$contribution")")]($contribution) "
     done
     printf "\n"
-  done
+  done | awk '{$1=$1};1'
 }
 
 print_weeks() {

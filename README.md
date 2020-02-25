@@ -8,9 +8,11 @@ a _set_ of _challenges_
 - [Week 4 (Feb 3rd)](./week-04)
 - [Week 5 (Feb 10th)](./week-05)
 - [Week 6 (Feb 17th)](./week-06)
+- [Week 7 (Feb 24th)](./week-07)
 
 ## Contributors:
 
+- debrine, [week-06](./week-06/debrine)
 - djp468, [week-01](./week-01/djp468) [week-02](./week-02/djp468)
 - jackharrhy, [week-01](./week-01/jackharrhy) [week-02](./week-02/jackharrhy) [week-03](./week-03/jackharrhy) [week-05](./week-05/jackharrhy)
 - k47swp, [week-02](./week-02/k47swp)
