@@ -20,6 +20,6 @@
 Entry count | Reason                 | Status | Additional description
 ------------|------------------------|--------|-----------------------
 1 entry     | Correct solution       | ✅     |
-2 entries   | In CS2004              | ❌     |
+2 entries   | In CS2004              | ❓     | Jack: _Paul mentioned in class Riley still might be permitted to get this entry_
 3 entries   | Solution in C          | ❌     |
 4 entries   | Multithreaded solution | ❓     | Unsure about this one. The solution was implemented using [goroutines](https://tour.golang.org/concurrency/1), which according to the Go developers are "a lightweight thread managed by the Go runtime". However, many people online argue that as the thread is managed by the Go runtime it's not a real thread.
