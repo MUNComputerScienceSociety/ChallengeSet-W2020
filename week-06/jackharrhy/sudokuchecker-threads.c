@@ -34,15 +34,22 @@ int is_valid() {
 
   for (int i = 0; i < LEN / 3; i++) {
     for (int j = 0; j < LEN / 3; j++) {
-      pthread_create(&threads[cur_thread], NULL, valid_square, (void *)((i * (LEN * 3)) + j * 3));
+      int* arg = malloc(sizeof(int));
+      *arg = (i * (LEN * 3)) + j * 3;
+      pthread_create(&threads[cur_thread], NULL, valid_square, (void *)arg);
       cur_thread += 1;
     }
   }
 
   for (int i = 0; i < LEN; i++) {
-    pthread_create(&threads[cur_thread], NULL, valid_col, (void *)i);
+    int* arg0 = malloc(sizeof(int));
+    *arg0 = 1;
+    pthread_create(&threads[cur_thread], NULL, valid_col, (void *)arg0);
     cur_thread += 1;
-    pthread_create(&threads[cur_thread], NULL, valid_row, (void *)(i * LEN));
+
+    int* arg1 = malloc(sizeof(int));
+    *arg1 = i * LEN;
+    pthread_create(&threads[cur_thread], NULL, valid_row, (void *)arg1);
     cur_thread += 1;
   }
 
