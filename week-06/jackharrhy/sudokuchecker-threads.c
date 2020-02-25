@@ -34,7 +34,7 @@ int is_valid() {
 
   for (int i = 0; i < LEN / 3; i++) {
     for (int j = 0; j < LEN / 3; j++) {
-      int* arg = malloc(sizeof(int));
+      int *arg = malloc(sizeof(int));
       *arg = (i * (LEN * 3)) + j * 3;
       pthread_create(&threads[cur_thread], NULL, valid_square, (void *)arg);
       cur_thread += 1;
@@ -42,21 +42,29 @@ int is_valid() {
   }
 
   for (int i = 0; i < LEN; i++) {
-    int* arg0 = malloc(sizeof(int));
+    int *arg0 = malloc(sizeof(int));
     *arg0 = 1;
     pthread_create(&threads[cur_thread], NULL, valid_col, (void *)arg0);
     cur_thread += 1;
 
-    int* arg1 = malloc(sizeof(int));
+    int *arg1 = malloc(sizeof(int));
     *arg1 = i * LEN;
     pthread_create(&threads[cur_thread], NULL, valid_row, (void *)arg1);
     cur_thread += 1;
   }
 
-  for (int i = 0; i < LEN * 3; i++)
-    pthread_join(threads[i], NULL);
+  int passed = 1;
 
-  return 1;
+  for (int i = 0; i < LEN * 3; i++) {
+    void *res;
+    pthread_join(threads[i], &res);
+    if ((*(int *)res) == -1) {
+      passed = -1;
+    }
+    free(res);
+  }
+
+  return passed;
 }
 
 void *valid_square(void *ptr) {
@@ -64,8 +72,12 @@ void *valid_square(void *ptr) {
   int seen[LEN] = {0};
 
   for (int i = 0; i < LEN; i++) {
-    if (seen[grid[start] - 1] == 1)
-      pthread_exit((void* )-1);
+    if (seen[grid[start] - 1] == 1) {
+      free(ptr);
+      int *ret = malloc(sizeof(int));
+      *ret = -1;
+      pthread_exit((void *)ret);
+    }
 
     if ((start + 1) % 3 == 0) {
       start += 7;
@@ -74,7 +86,10 @@ void *valid_square(void *ptr) {
     }
   }
 
-  pthread_exit((void* )1);
+  free(ptr);
+  int *ret = malloc(sizeof(int));
+  *ret = 1;
+  pthread_exit((void *)ret);
 }
 
 void *valid_col(void *ptr) {
@@ -82,14 +97,21 @@ void *valid_col(void *ptr) {
   int seen[LEN] = {0};
 
   for (int i = 0; i < LEN; i++) {
-    if (seen[grid[start] - 1] == 1)
-      pthread_exit((void* )-1);
+    if (seen[grid[start] - 1] == 1) {
+      free(ptr);
+      int *ret = malloc(sizeof(int));
+      *ret = -1;
+      pthread_exit((void *)ret);
+    }
 
     seen[grid[start] - 1] = 1;
     start += LEN;
   }
 
-  pthread_exit((void* )1);
+  free(ptr);
+  int *ret = malloc(sizeof(int));
+  *ret = 1;
+  pthread_exit((void *)ret);
 }
 
 void *valid_row(void *ptr) {
@@ -97,14 +119,21 @@ void *valid_row(void *ptr) {
   int seen[LEN] = {0};
 
   for (int i = 0; i < LEN; i++) {
-    if (seen[grid[start] - 1] == 1)
-      pthread_exit((void* )-1);
+    if (seen[grid[start] - 1] == 1) {
+      free(ptr);
+      int *ret = malloc(sizeof(int));
+      *ret = -1;
+      pthread_exit((void *)ret);
+    }
 
     seen[grid[start] - 1] = 1;
     start += 1;
   }
 
-  pthread_exit((void* )1);
+  free(ptr);
+  int *ret = malloc(sizeof(int));
+  *ret = 1;
+  pthread_exit((void *)ret);
 }
 
 void print_grid(void) {
