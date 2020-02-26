@@ -1,3 +1,41 @@
+# Sudoku challenge winners
+
+## 3 Entries
+
+1. @debrine 10 entries
+   - [x] correct solution
+   - [x] CS2004 (last term)
+   - [x] solution in C
+   - [x] multithreaded
+1. @jackharrhy 10 entries
+   - [x] correct solution
+   - [x] CS2004 (last term)
+   - [x] solution in C
+   - [x] multithreaded
+1. @nint8835 7 entries
+   - [x] correct solution
+   - [x] CS2004 (2 terms ago)
+   - [ ] solution in C
+   - [x] multithreaded AFAIK goroutines are threads
+
+## Actual ticket stubs and draw
+
+@debrine 0-9
+@jackharrhy 10-19
+@nint8835 20-26
+
+Number generated from https://www.random.org/integers/?num=10&min=0&max=26&col=5&base=10&format=html&rnd=new
+
+Actual result:
+Here are your random numbers:
+
+18	22	6	24	2
+17	19	9	18	12
+Timestamp: 2020-02-26 18:22:16 UTC
+
+First 2 unique 'people' are @jackharrhy and @nint8835
+
+
 # Sudoku Solution Validator
 
 All submitted solutions will earn entries in a draw for 2 GitHub t-shirt vouchers.
